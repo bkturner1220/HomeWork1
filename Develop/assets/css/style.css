@@ -1,13 +1,16 @@
+/* Attributes that apply to complete page, besides specifics */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body Attributes */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Attributes */
 header {
     position: absolute;
     padding: 20px;
@@ -17,22 +20,32 @@ header {
     width: 100%;
 }
 
-/* header h1 {
-/* display: inline-flexbox; 
-    font-size: 48px;
-} */
-
+/* Header (H1) Attributes */
 hgroup > h1 {
     color: #d9dcd6;
     font-size: 48px;
+    }
 
-}
+/* Header (H2) Attributes */
+hgroup > h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    }
 
+/* Header (H3) Attributes */
+hgroup > h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    
+
+/* Navbar Attribues (Container) */
 nav {
     text-align: right;
     margin: right;
 }
 
+/* Navbar Attributes (List) */
 nav ul {
     position: relative;
     display: inline-flex;
@@ -40,20 +53,18 @@ nav ul {
     padding: 20px;
     top: 20px;
     right: 20px;
-
 }
 
+/* Navbar Attributes (List Item) */
 nav li a{
     text-decoration: none;
     color: #ffffff;
     font-size:18px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     margin-left: 25px;
     text-align: center;
-
-
 }
+
 
 p {
     font-size: 16px;
@@ -68,10 +79,13 @@ p {
     background-position: center;
 }
 
+/* Image Float */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* Image Float */
 
 .float-right {
     float: right;
@@ -84,6 +98,7 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits Section Attributes */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -95,25 +110,21 @@ p {
     background-color: #2589bd;
 }
 
+/* Section Benefits Container Attributes */
 .benefit-class
 {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-hgroup > h3 {
-margin-bottom: 10px;
-text-align: center;
-}
-
+/* Section Benefits Image Attributes */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* Individual Benefits Section Attributes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,6 +134,7 @@ text-align: center;
     color: #ffffff;
 }
 
+/* Individual Benefits Section Attributes */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -132,6 +144,7 @@ text-align: center;
     color: #ffffff;
 }
 
+/* Individual Benefits Section Attributes */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,34 +166,14 @@ text-align: center;
     max-height: 200px;
 }
 
-hgroup > h2 {
-
-    margin-bottom: 20px;
-    font-size: 36px;
-
-}
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
+/* Footer Attributes */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Footer (H2) Header Attributes */
 footer h2 {
     font-size: 20px;
 }
