@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HomeWork-Unit1
 
 HomeWork-Unit1
@@ -40,3 +41,8 @@ The assets/css folder contains the reset.css and style.css files. All other imag
 The various sections in the HTML and CSS are well commented.
 
 If you encounter problems, please feel free to reach out to me by sending me a email to my [Email](bturner@texascdlprep.com).
+=======
+# HomeWork1
+
+Home Work Unit1
+>>>>>>> 0044deaa5b75405826d25b11c551596c65266373
