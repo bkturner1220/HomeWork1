@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# HomeWork-Unit1
+# Horiseon Website
 
-HomeWork-Unit1
+Horiseon Website
 
 ## Screenshot
 
